@@ -20,35 +20,36 @@ the problems which may result by upgrading your kernel.
 # Custom Pogo KPAD mappings for more keys and layers
 
 Includes entire kernel, have to follow steps in discord to create the driver itself.
-Wanna thank ![Kiwiz]{https://www.github.com/kiwiz/linux} for the DVORAK ver, which I modified to be QWERTY instead
+Wanna thank [Kiwiz](https://www.github.com/kiwiz/linux) for the DVORAK ver, which I modified to be QWERTY instead(I have the UK Layout Type Folio, might need more changes for US vers)
 ### With shift
 
-!@#$%^&*()+
-QWERTYUIOP~
-ASDFGHJKL:"
-ZXCVBNM<>?
+!@#$%^&*()+  
+QWERTYUIOP~  
+ASDFGHJKL:"  
+ZXCVBNM<>?  
 
 ### Without shift
-1234567890=
-qwertyuiop`
-asdfghjkl;'
-zxcvbnm,./
+1234567890=  
+qwertyuiop`  
+asdfghjkl;'  
+zxcvbnm,./  
 
 
 ### With opt
-Esc 234567890-
-qwertyuiop`
-asdfghjkl;'
-zxcvbnm[]\
+Esc 234567890-  
+qwertyuiop`  
+asdfghjkl;'  
+zxcvbnm[]\  
 
 ### With opt+Shift
-Esc @#$%^&*()_
-QWERTYUIOP~
-ASDFGHJKL:"
-ZXCVBNM{}|
+Esc @#$%^&*()_  
+QWERTYUIOP~  
+ASDFGHJKL:"  
+ZXCVBNM{}|  
 
 ### With AltOpt
-F1-12 #entire row 
-qwertyuiop`
-asdfghjkl;'
-zxcvbnm,./
+F1-12 #entire row   
+qwertyuiop`  
+asdfghjkl;'  
+zxcvbnm,./  
+

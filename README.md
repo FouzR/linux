@@ -20,7 +20,7 @@ the problems which may result by upgrading your kernel.
 # Custom Pogo KPAD mappings for more keys and layers
 
 Includes entire kernel, have to follow steps in discord to create the driver itself.
-Wanna thank [Kiwiz]{https://www.github.com/kiwiz/linux} for the DVORAK ver, which I modified to be QWERTY instead
+Wanna thank ![Kiwiz]{https://www.github.com/kiwiz/linux} for the DVORAK ver, which I modified to be QWERTY instead
 ### With shift
 
 !@#$%^&*()+

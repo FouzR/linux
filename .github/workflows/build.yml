@@ -1,0 +1,28 @@
+name: Build
+on:
+  push:
+    branches:
+    - rm1xx_5.4.70_v1.3.x
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container: eeems/remarkable-toolchain:latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Configure & build
+      shell: bash
+      run: |
+        apt-get update
+        apt-get install -y bison flex
+        source /opt/codex/rm11x/3.1.15/environment-setup-cortexa7hf-neon-remarkable-linux-gnueabi
+        make mrproper
+        touch .scmversion
+        cp arch/arm/configs/zero-sugar_defconfig .config
+        make olddefconfig
+        make drivers/misc/rm-pogo/pogo.ko
+    - name: Check
+      run: make modules_prepare
+    - uses: actions/upload-artifact@v3
+      with:
+        name: pogo.ko
+        path: drivers/misc/rm-pogo/pogo.ko

@@ -808,11 +808,12 @@ void pogo_keyboard_report(struct rm_pogo_data *pdata, u8 val)
 	unsigned int i, col, row, key, from_layer, to_layer, curr_layer;
 	bool toggle = false;
 	const unsigned short *keycodes = pdata->kb_dev->keycode;
+
 	// determine position
 	curr_layer = pdata->layer;
 	row = 0x7 & (val >> 1);
 	col = 0xf & (val >> 4);
-	
+
 	// handle layer changes
 	for(i = 0; i < ARRAY_SIZE(pogo_layer_data_proto3); ++i) {
 	    // skip if layer doesn't exist

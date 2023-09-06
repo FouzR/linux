@@ -812,7 +812,6 @@ void pogo_keyboard_report(struct rm_pogo_data *pdata, u8 val)
 	curr_layer = pdata->layer;
 	row = 0x7 & (val >> 1);
 	col = 0xf & (val >> 4);
-	key = MATRIX_SCAN_CODE(row + (7 * pdata->layer), col, pdata->kb_row_shift);
 	
 	// handle layer changes
 	for(i = 0; i < ARRAY_SIZE(pogo_layer_data_proto3); ++i) {

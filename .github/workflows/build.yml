@@ -9,7 +9,7 @@ jobs:
     container: eeems/remarkable-toolchain:latest
     steps:
     - uses: actions/checkout@v3
-    - name: Configure
+    - name: Configure & build
       shell: bash
       run: |
         apt-get update
@@ -19,9 +19,8 @@ jobs:
         touch .scmversion
         cp arch/arm/configs/zero-sugar_defconfig .config
         make olddefconfig
-    - name: Build
-      run: make drivers/misc/rm-pogo/pogo.ko
-    - name: check
+        make drivers/misc/rm-pogo/pogo.ko
+    - name: Check
       run: make modules_prepare
     - uses: actions/upload-artifact@v3
       with:

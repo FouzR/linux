@@ -2,7 +2,7 @@ name: Build
 on:
   push:
     branches:
-    - rm1xx_5.4.70_v1.3.x
+    - colemak-stuff
 jobs:
   build:
     runs-on: ubuntu-latest

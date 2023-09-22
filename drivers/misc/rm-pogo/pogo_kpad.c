@@ -138,12 +138,12 @@ static const uint32_t pogo_keymap_proto3[] = {
 	KEY(0, 4, KEY_RESERVED),
 	KEY(0, 5, KEY_RESERVED),
 	KEY(0, 6, KEY_RESERVED),
-	KEY(0, 7, KEY_M), /*KEY_N),*/
-	KEY(0, 8, KEY_Z), /*KEY_B),*/
+	KEY(0, 7, KEY_K), /*KEY_N),*/
+	KEY(0, 8, KEY_B), /*KEY_B),*/
 	KEY(0, 9, KEY_V),
 	KEY(0, 10, KEY_S), /*KEY_D),*/
-	KEY(0, 11, KEY_C), /*KEY_X),*/
-	KEY(0, 12, KEY_X), /*KEY_Z),*/
+	KEY(0, 11, KEY_X), /*KEY_X),*/
+	KEY(0, 12, KEY_Z), /*KEY_Z),*/
 	KEY(0, 13, KEY_RESERVED),
 	KEY(0, 14, KEY_LEFTSHIFT),
 	KEY(1, 0, KEY_RESERVED),
@@ -153,10 +153,10 @@ static const uint32_t pogo_keymap_proto3[] = {
 	KEY(1, 4, KEY_DOWN),
 	KEY(1, 5, KEY_RESERVED),
 	KEY(1, 6, KEY_RESERVED),
-	KEY(1, 7, KEY_K), /*KEY_H),*/
-	KEY(1, 8, KEY_G),
+	KEY(1, 7, KEY_H), /*KEY_H),*/
+	KEY(1, 8, KEY_D),
 	KEY(1, 9, KEY_T), /*KEY_F),*/
-	KEY(1, 10, KEY_D), /*KEY_C),*/
+	KEY(1, 10, KEY_C), /*KEY_C),*/
 	KEY(1, 11, KEY_RESERVED),
 	KEY(1, 12, KEY_RESERVED),
 	KEY(1, 13, KEY_END),
@@ -169,7 +169,7 @@ static const uint32_t pogo_keymap_proto3[] = {
 	KEY(2, 5, KEY_LEFT),
 	KEY(2, 6, KEY_ENTER),
 	KEY(2, 7, KEY_7),
-	KEY(2, 8, KEY_B), /*KEY_T),*/
+	KEY(2, 8, KEY_G), /*KEY_T),*/
 	KEY(2, 9, KEY_F), /*KEY_E),*/
 	KEY(2, 10, KEY_P), /*KEY_R),*/
 	KEY(2, 11, KEY_W),
@@ -181,14 +181,14 @@ static const uint32_t pogo_keymap_proto3[] = {
 	KEY(3, 2, KEY_RESERVED),
 	KEY(3, 3, KEY_EQUAL),
 	KEY(3, 4, KEY_0),
-	KEY(3, 5, KEY_U), /*KEY_I),*/
+	KEY(3, 5, KEY_L), /*KEY_I),*/
 	KEY(3, 6, KEY_UP),
 	KEY(3, 7, KEY_J), /*KEY_Y),*/
 	KEY(3, 8, KEY_6),
 	KEY(3, 9, KEY_5),
 	KEY(3, 10, KEY_4),
 	KEY(3, 11, KEY_3),
-	KEY(3, 12, KEY_CAPSLOCK),
+	KEY(3, 12, KEY_BACKSPACE),
 	KEY(3, 13, KEY_R), /*KEY_S),*/
 	KEY(3, 14, KEY_A),
 	KEY(4, 0, KEY_RESERVED),
@@ -227,7 +227,7 @@ static const uint32_t pogo_keymap_proto3[] = {
 	KEY(6, 3, KEY_SLASH),
 	KEY(6, 4, KEY_DOT),
 	KEY(6, 5, KEY_COMMA),
-	KEY(6, 6, KEY_H), /*KEY_M),*/
+	KEY(6, 6, KEY_M), /*KEY_M),*/
 	KEY(6, 7, KEY_APOSTROPHE),
 	KEY(6, 8, KEY_RESERVED),
 	KEY(6, 9, KEY_RESERVED),
